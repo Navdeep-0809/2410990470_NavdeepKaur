@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+</head>
+<body>
+    <h1><center>REGISTRATION FORM</center></h1>
+    <h4>Please fill all the details.</h4>
+    <label for="Name">Name: </label>
+    <input type="text" placeholder="enter your name" id="Name" name="Name" min="3" pattern="[A-Za-z]" title="Please enter alphabtes only. Minimum 3 alphabets required " required>
+    </br></br>
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Enter your email id" id="email" name="email" title="Please enter valid email id" required>
+    </br></br>
+    <label for="Phone number">PHONE NUMBER: </label>
+    <input type="number" placeholder="enter your phone number" id="Phone number" name="phone number" pattern="{10}" title="enter valid phone number" required>
+    </br></br>
+    <label for="age">AGE: </label>
+    <input type="number" placeholder="enter age" id="age" name="age" min="18" max="60" title="Enter age between 18 and 60" required>
+    </br></br>
+    <label for="dob">DOB: </label>
+    <input type="date" id="dob" name="dob">
+    </br></br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+    <i class="far fa-eye"></i>
+    <br><br>
+    <label for="declaration">
+    <input type="checkbox" id="declaration" name="declaration" required>I confirm that the information provided is accurate.</label>
+    <br><br>
+    <input type="submit" value="submit" required>
+</body>
+</html>
